@@ -3,8 +3,9 @@
 
 CMakeFiles/MySDL2App.dir/main.cpp.o
  /home/leniton/Documents/Tests/Cpp/main.cpp
+ /home/leniton/Documents/Tests/Cpp/defs.h
  /home/leniton/Documents/Tests/Cpp/draw.cpp
- /home/leniton/Documents/Tests/Cpp/init.h
+ /home/leniton/Documents/Tests/Cpp/init.cpp
  /home/leniton/Documents/Tests/Cpp/input.cpp
  /home/leniton/Documents/Tests/Cpp/structs.cpp
  /home/leniton/Documents/Tests/Cpp/structs.h

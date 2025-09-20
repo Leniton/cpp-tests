@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 
     atexit(cleanup);
 
-    while (1)
+    while (true)
     {
         prepareScene();
 
