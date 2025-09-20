@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MySDL2App.dir/main.cpp.o -o MySDL2App  -lSDL2
