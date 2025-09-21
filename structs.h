@@ -1,6 +1,6 @@
 #ifndef APP_H
 #define APP_H
-#include <SDL.h>
+#include <SDL3/SDL.h>
 
 typedef struct {
     SDL_Renderer *renderer;
@@ -8,4 +8,10 @@ typedef struct {
 } App;
 
 extern App app;
+
+typedef struct {
+    float x;
+    float y;
+    SDL_Texture *texture;
+} Entity;
 #endif // APP_H

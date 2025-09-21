@@ -1,13 +1,11 @@
-#include <SDL.h>
+#include <SDL3/SDL.h>
 #include <iostream>
 #include "defs.h"
 #include "structs.h"
 
 void initSDL(void)
 {
-    int rendererFlags, windowFlags;
-
-    rendererFlags = SDL_RENDERER_ACCELERATED;
+    int windowFlags;
 
     windowFlags = 0;
 
@@ -17,7 +15,7 @@ void initSDL(void)
         exit(1);
     }
 
-    app.window = SDL_CreateWindow("Shooter 01", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, windowFlags);
+    app.window = SDL_CreateWindow("Shooter 01", SCREEN_WIDTH, SCREEN_HEIGHT, windowFlags);
 
     if (!app.window)
     {
@@ -25,9 +23,9 @@ void initSDL(void)
         exit(1);
     }
 
-    SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");
+    //SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");
 
-    app.renderer = SDL_CreateRenderer(app.window, -1, rendererFlags);
+    app.renderer = SDL_CreateRenderer(app.window, NULL);
 
     if (!app.renderer)
     {

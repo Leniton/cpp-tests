@@ -6,15 +6,11 @@ project(MySDL2App VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Find SDL2
-find_package(PkgConfig REQUIRED)
-pkg_check_modules(SDL2 REQUIRED sdl2)
+find_package(SDL3 REQUIRED)
+find_package(SDL3_image REQUIRED)
 
-# Include SDL2 headers
-include_directories(${SDL2_INCLUDE_DIRS})
-
-# Add your source files
+# Add executable
 add_executable(MySDL2App main.cpp)
 
-# Link SDL2 libraries
-target_link_libraries(MySDL2App ${SDL2_LIBRARIES})
+# Link SDL3 and SDL3_image
+target_link_libraries(MySDL2App SDL3::SDL3 SDL3_image::SDL3_image)

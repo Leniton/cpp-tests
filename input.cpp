@@ -1,4 +1,4 @@
-#include <SDL.h>
+#include <SDL3/SDL.h>
 
 void doInput(void)
 {
@@ -8,10 +8,9 @@ void doInput(void)
     {
         switch (event.type)
         {
-            case SDL_QUIT:
+            case SDL_EVENT_QUIT:
                 exit(0);
                 break;
-
             default:
                 break;
         }
