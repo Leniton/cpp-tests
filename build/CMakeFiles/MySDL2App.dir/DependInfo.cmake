@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leniton/Documents/Tests/Cpp/main.cpp" "CMakeFiles/MySDL2App.dir/main.cpp.o" "gcc" "CMakeFiles/MySDL2App.dir/main.cpp.o.d"
+  "/home/leniton/Documents/Tests/Cpp/Scripts/main.cpp" "CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o" "gcc" "CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o.d"
   )
 
 # Targets to which this target links.

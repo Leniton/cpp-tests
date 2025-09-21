@@ -69,28 +69,28 @@ include CMakeFiles/MySDL2App.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MySDL2App.dir/flags.make
 
-CMakeFiles/MySDL2App.dir/main.cpp.o: CMakeFiles/MySDL2App.dir/flags.make
-CMakeFiles/MySDL2App.dir/main.cpp.o: ../main.cpp
-CMakeFiles/MySDL2App.dir/main.cpp.o: CMakeFiles/MySDL2App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leniton/Documents/Tests/Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MySDL2App.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2App.dir/main.cpp.o -MF CMakeFiles/MySDL2App.dir/main.cpp.o.d -o CMakeFiles/MySDL2App.dir/main.cpp.o -c /home/leniton/Documents/Tests/Cpp/main.cpp
+CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: CMakeFiles/MySDL2App.dir/flags.make
+CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp
+CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: CMakeFiles/MySDL2App.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leniton/Documents/Tests/Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o -MF CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o.d -o CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o -c /home/leniton/Documents/Tests/Cpp/Scripts/main.cpp
 
-CMakeFiles/MySDL2App.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MySDL2App.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leniton/Documents/Tests/Cpp/main.cpp > CMakeFiles/MySDL2App.dir/main.cpp.i
+CMakeFiles/MySDL2App.dir/Scripts/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MySDL2App.dir/Scripts/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leniton/Documents/Tests/Cpp/Scripts/main.cpp > CMakeFiles/MySDL2App.dir/Scripts/main.cpp.i
 
-CMakeFiles/MySDL2App.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MySDL2App.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leniton/Documents/Tests/Cpp/main.cpp -o CMakeFiles/MySDL2App.dir/main.cpp.s
+CMakeFiles/MySDL2App.dir/Scripts/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MySDL2App.dir/Scripts/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leniton/Documents/Tests/Cpp/Scripts/main.cpp -o CMakeFiles/MySDL2App.dir/Scripts/main.cpp.s
 
 # Object files for target MySDL2App
 MySDL2App_OBJECTS = \
-"CMakeFiles/MySDL2App.dir/main.cpp.o"
+"CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o"
 
 # External object files for target MySDL2App
 MySDL2App_EXTERNAL_OBJECTS =
 
-MySDL2App: CMakeFiles/MySDL2App.dir/main.cpp.o
+MySDL2App: CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o
 MySDL2App: CMakeFiles/MySDL2App.dir/build.make
 MySDL2App: /usr/local/lib/libSDL3_image.so.0.3.0
 MySDL2App: /usr/local/lib/libSDL3.so.0.3.0

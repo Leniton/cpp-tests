@@ -129,29 +129,29 @@ MySDL2App/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySDL2App.dir/build.make CMakeFiles/MySDL2App.dir/build
 .PHONY : MySDL2App/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+Scripts/main.o: Scripts/main.cpp.o
+.PHONY : Scripts/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySDL2App.dir/build.make CMakeFiles/MySDL2App.dir/main.cpp.o
-.PHONY : main.cpp.o
+Scripts/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySDL2App.dir/build.make CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o
+.PHONY : Scripts/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+Scripts/main.i: Scripts/main.cpp.i
+.PHONY : Scripts/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySDL2App.dir/build.make CMakeFiles/MySDL2App.dir/main.cpp.i
-.PHONY : main.cpp.i
+Scripts/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySDL2App.dir/build.make CMakeFiles/MySDL2App.dir/Scripts/main.cpp.i
+.PHONY : Scripts/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Scripts/main.s: Scripts/main.cpp.s
+.PHONY : Scripts/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySDL2App.dir/build.make CMakeFiles/MySDL2App.dir/main.cpp.s
-.PHONY : main.cpp.s
+Scripts/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MySDL2App.dir/build.make CMakeFiles/MySDL2App.dir/Scripts/main.cpp.s
+.PHONY : Scripts/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MySDL2App"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Scripts/main.o"
+	@echo "... Scripts/main.i"
+	@echo "... Scripts/main.s"
 .PHONY : help
 
 

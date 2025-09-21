@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MySDL2App.dir/main.cpp.o"
-  "CMakeFiles/MySDL2App.dir/main.cpp.o.d"
+  "CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o"
+  "CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o.d"
   "MySDL2App"
   "MySDL2App.pdb"
 )

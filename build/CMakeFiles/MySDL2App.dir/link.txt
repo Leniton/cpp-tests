@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/MySDL2App.dir/main.cpp.o -o MySDL2App  -Wl,-rpath,/usr/local/lib /usr/local/lib/libSDL3_image.so.0.3.0 /usr/local/lib/libSDL3.so.0.3.0 
+/usr/bin/c++ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o -o MySDL2App  -Wl,-rpath,/usr/local/lib /usr/local/lib/libSDL3_image.so.0.3.0 /usr/local/lib/libSDL3.so.0.3.0 

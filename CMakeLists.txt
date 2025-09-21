@@ -10,7 +10,7 @@ find_package(SDL3 REQUIRED)
 find_package(SDL3_image REQUIRED)
 
 # Add executable
-add_executable(MySDL2App main.cpp)
+add_executable(MySDL2App Scripts/main.cpp)
 
 # Link SDL3 and SDL3_image
 target_link_libraries(MySDL2App SDL3::SDL3 SDL3_image::SDL3_image)
