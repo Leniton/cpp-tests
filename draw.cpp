@@ -24,14 +24,14 @@ SDL_Texture *loadTexture(char *filename)
     return texture;
 }
 
-void blit(SDL_Texture *texture, float x, float y)
+void blit(SDL_Texture *texture, float x, float y, float scale = 1)
 {
     SDL_FRect dest;
 
     dest.x = x;
     dest.y = y;
-    dest.w = 50;
-    dest.h = 50;
+    dest.w = texture->w * scale;
+    dest.h = texture->h * scale;
     //SDL_QueryTexture(texture, NULL, NULL, &dest.w, &dest.h);
 
     //SDL_RenderCopy(app.renderer, texture, NULL, &dest);

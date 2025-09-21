@@ -25,13 +25,33 @@ int main(int argc, char* argv[])
 
     atexit(cleanup);
 
-    while (true)
+    while (!app.quit)
     {
         prepareScene();
 
         doInput();
 
-        blit(e.texture, e.x, e.y);
+        if (app.up)
+        {
+            e.y -= 4;
+        }
+
+        if (app.down)
+        {
+            e.y += 4;
+        }
+
+        if (app.left)
+        {
+            e.x -= 4;
+        }
+
+        if (app.right)
+        {
+            e.x += 4;
+        }
+
+        blit(e.texture, e.x, e.y,.2);
 
         presentScene();
 

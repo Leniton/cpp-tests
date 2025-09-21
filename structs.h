@@ -5,6 +5,12 @@
 typedef struct {
     SDL_Renderer *renderer;
     SDL_Window *window;
+    int quit;
+
+    int up;
+    int down;
+    int left;
+    int right;
 } App;
 
 extern App app;
