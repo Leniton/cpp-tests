@@ -16,7 +16,8 @@ typedef struct {
 
 App app;
 
-typedef struct {
+class Entity {
+    public:
     float x;
     float y;
 
@@ -24,5 +25,5 @@ typedef struct {
     float dy;
     int health;
     SDL_Texture *texture;
-} Entity;
+};
 #endif // APP_H

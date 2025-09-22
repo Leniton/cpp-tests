@@ -6,12 +6,13 @@
 #include "input.h"
 #include "draw.h"
 
-Entity e;
+Entity player;
 Entity bullet;
 
 void cleanup() 
 {
-    SDL_DestroyTexture(e.texture);
+    SDL_DestroyTexture(player.texture);
+    SDL_DestroyTexture(bullet.texture);
     std::cout << "Cleanup function called at program exit!" << std::endl;
 }
 
@@ -19,9 +20,9 @@ int main(int argc, char* argv[])
 {
     initSDL();
 
-    e.x = 100;
-    e.y = 100;
-    e.texture = loadTexture((char*)"Assets/kuru.gif");
+    player.x = 100;
+    player.y = 100;
+    player.texture = loadTexture((char*)"Assets/kuru.gif");
 
     bullet.texture = loadTexture("Assets/kuru.jpg");
 
@@ -35,28 +36,28 @@ int main(int argc, char* argv[])
 
         if (app.up)
         {
-            e.y -= 4;
+            player.y -= 4;
         }
 
         if (app.down)
         {
-            e.y += 4;
+            player.y += 4;
         }
 
         if (app.left)
         {
-            e.x -= 4;
+            player.x -= 4;
         }
 
         if (app.right)
         {
-            e.x += 4;
+            player.x += 4;
         }
 
         if (app.fire && bullet.health == 0)
         {
-            bullet.x = e.x;
-            bullet.y = e.y;
+            bullet.x = player.x;
+            bullet.y = player.y;
             bullet.dx = 16;
             bullet.dy = 0;
             bullet.health = 1;
@@ -70,7 +71,7 @@ int main(int argc, char* argv[])
             bullet.health = 0;
         }
 
-        blit(e.texture, e.x, e.y,.2);
+        blit(player.texture, player.x, player.y,.2);
 
         if (bullet.health > 0)
         {

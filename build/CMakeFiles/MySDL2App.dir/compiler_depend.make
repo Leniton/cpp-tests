@@ -244,10 +244,10 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   ../Scripts/structs.h \
-  ../Scripts/init.cpp \
+  ../Scripts/init.h \
   ../Scripts/defs.h \
-  ../Scripts/input.cpp \
-  ../Scripts/draw.cpp
+  ../Scripts/input.h \
+  ../Scripts/draw.h
 
 
 ../Scripts/structs.h:
@@ -305,6 +305,8 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
 /usr/include/stdlib.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
+
+../Scripts/input.h:
 
 /usr/include/c++/11/string_view:
 
@@ -388,8 +390,6 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
-../Scripts/draw.cpp:
-
 /usr/include/c++/11/debug/debug.h:
 
 /usr/include/c++/11/bits/concept_check.h:
@@ -440,6 +440,8 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
 
 /usr/local/include/SDL3/SDL_bits.h:
 
+../Scripts/draw.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
@@ -465,8 +467,6 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-../Scripts/init.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -674,6 +674,8 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
+../Scripts/init.h:
+
 /usr/local/include/SDL3/SDL_oldnames.h:
 
 /usr/include/c++/11/ostream:
@@ -719,8 +721,6 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/c++/11/bits/move.h:
-
-../Scripts/input.cpp:
 
 /usr/include/c++/11/type_traits:
 
