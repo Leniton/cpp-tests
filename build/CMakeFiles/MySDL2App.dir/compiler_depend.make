@@ -248,11 +248,8 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
   ../Scripts/init.cpp \
   ../Scripts/defs.h \
   ../Scripts/input.cpp \
-  ../Scripts/draw.cpp \
-  ../Scripts/assethandler.cpp
+  ../Scripts/draw.cpp
 
-
-../Scripts/assethandler.cpp:
 
 ../Scripts/structs.h:
 
