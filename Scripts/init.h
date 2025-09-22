@@ -3,7 +3,7 @@
 #include "defs.h"
 #include "structs.h"
 
-void initSDL(void)
+void initSDL()
 {
     int windowFlags;
 
