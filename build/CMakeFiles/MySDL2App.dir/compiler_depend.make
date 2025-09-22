@@ -243,16 +243,12 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../Scripts/structs.cpp \
   ../Scripts/structs.h \
   ../Scripts/init.cpp \
   ../Scripts/defs.h \
   ../Scripts/input.cpp \
-  ../Scripts/draw.cpp \
-  ../Scripts/test.h
+  ../Scripts/draw.cpp
 
-
-../Scripts/test.h:
 
 ../Scripts/structs.h:
 
@@ -333,8 +329,6 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: ../Scripts/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-../Scripts/structs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
