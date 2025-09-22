@@ -198,4 +198,5 @@ CMakeFiles/MySDL2App.dir/Scripts/main.cpp.o: \
  /home/leniton/Documents/Tests/Cpp/Scripts/init.cpp \
  /home/leniton/Documents/Tests/Cpp/Scripts/defs.h \
  /home/leniton/Documents/Tests/Cpp/Scripts/input.cpp \
- /home/leniton/Documents/Tests/Cpp/Scripts/draw.cpp
+ /home/leniton/Documents/Tests/Cpp/Scripts/draw.cpp \
+ /home/leniton/Documents/Tests/Cpp/Scripts/test.h

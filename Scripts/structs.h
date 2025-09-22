@@ -11,13 +11,18 @@ typedef struct {
     int down;
     int left;
     int right;
+    int fire;
 } App;
 
-extern App app;
+App app;
 
 typedef struct {
     float x;
     float y;
+
+    float dx;
+    float dy;
+    int health;
     SDL_Texture *texture;
 } Entity;
 #endif // APP_H

@@ -1,61 +1,60 @@
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_keycode.h>
+#include <iostream>
 
 void doKeyDown(SDL_KeyboardEvent event)
 {
-    if (event.repeat == 0)
+    if (event.repeat != 0){ return;}
+    if (event.key == SDLK_W)
     {
-        if (event.key == SDLK_W)
-        {
-            app.up = 1;
-        }
+        app.up = 1;
+    }
+    if (event.key == SDLK_S)
+    {
+        app.down = 1;
+    }
+    if (event.key == SDLK_A)
+    {
+        app.left = 1;
+    }
+    if (event.key == SDLK_D)
+    {
+        app.right = 1;
+    }
+    if (event.key == SDLK_SPACE)
+    {
+        app.fire = 1;
+    }
 
-        if (event.key == SDLK_S)
-        {
-            app.down = 1;
-        }
-
-        if (event.key == SDLK_A)
-        {
-            app.left = 1;
-        }
-
-        if (event.key == SDLK_D)
-        {
-            app.right = 1;
-        }
-
-
-        if (event.key == SDLK_ESCAPE)
-        {
-            app.quit = 1;
-        }
+    if (event.key == SDLK_ESCAPE)
+    {
+        app.quit = 1;
     }
 }
 void doKeyUp(SDL_KeyboardEvent event)
 {
-    if (event.repeat == 0)
+    if (event.repeat != 0) {return;}
+    if (event.key == SDLK_W)
     {
-        if (event.key == SDLK_W)
-        {
-            app.up = 0;
-        }
-
-        if (event.key == SDLK_S)
-        {
-            app.down = 0;
-        }
-
-        if (event.key == SDLK_A)
-        {
-            app.left = 0;
-        }
-
-        if (event.key == SDLK_D)
-        {
-            app.right = 0;
-        }
+        app.up = 0;
     }
+    if (event.key == SDLK_S)
+    {
+        app.down = 0;
+    }
+    if (event.key == SDLK_A)
+    {
+        app.left = 0;
+    }
+    if (event.key == SDLK_D)
+    {
+        app.right = 0;
+    }
+    if (event.key == SDLK_SPACE)
+    {
+        app.fire = 0;
+    }
+
 }
 
 void doInput(void)
