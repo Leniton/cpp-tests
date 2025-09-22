@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/local/include/SDL3",
+                "/usr/local/include/SDL3_image",
+                "${workspaceFolder}",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerArgs": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/**"
+            ]
+        }
+    ],
+    "version": 4
+}
