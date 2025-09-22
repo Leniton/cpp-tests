@@ -1,5 +1,4 @@
-#ifndef APP_H
-#define APP_H
+#pragma once
 #include <SDL3/SDL.h>
 
 typedef struct {
@@ -26,4 +25,7 @@ class Entity {
     int health;
     SDL_Texture *texture;
 };
-#endif // APP_H
+
+class player : Entity
+{
+};
