@@ -1,11 +1,10 @@
 #include <SDL3/SDL.h>
 #include <SDL3_image/SDL_image.h>
 #include <iostream>
-#include "structs.cpp"
+#include "structs.h"
 #include "init.cpp"
 #include "input.cpp"
 #include "draw.cpp"
-#include "test.h"
 
 Entity e;
 Entity bullet;
